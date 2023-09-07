@@ -30,7 +30,8 @@ def decompress():
 
     
     df = pd.DataFrame.from_dict(users_acces)
-    #df.to_csv('C:/Users/etuejor/OneDrive - Ericsson/Metrics/logins.csv',sep=',',index=False)
+    df.to_csv('C:/Users/etuejor/OneDrive - Ericsson/Metrics/logins.csv',sep=',',index=False)
+    nume = 0
 
  
 
