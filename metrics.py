@@ -25,6 +25,8 @@ def decompress():
                print(l)
                s=l.split(']')
                users_acces.append({'user':s[2].split(' ')[2].split('@')[0],'date':s[1].split(' ')[2],'time':s[1].split(' ')[3]})
+     return users_acces
+     yield 
 
  
 
