@@ -25,8 +25,7 @@ def decompress():
                print(l)
                s=l.split(']')
                users_acces.append({'user':s[2].split(' ')[2].split('@')[0],'date':s[1].split(' ')[2],'time':s[1].split(' ')[3]})
-     return users_acces
-     yield 
+     
 
  
 
@@ -34,6 +33,8 @@ def decompress():
     df = pd.DataFrame.from_dict(users_acces)
     df.to_csv('C:/Users/etuejor/OneDrive - Ericsson/Metrics/logins.csv',sep=',',index=False)
     nume = 0
+    return nume
+    yield
 
  
 
